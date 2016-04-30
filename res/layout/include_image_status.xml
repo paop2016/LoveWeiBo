@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-24dp"
+    android:padding="16dp" >
+	<wang.loveweibo.widget.WrapHeightGridView
+        android:id="@+id/gv_image"
+        style="@style/GridViewImages"
+        android:numColumns="3" >
+    </wang.loveweibo.widget.WrapHeightGridView>
+    
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="-8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_retweent_sel"
+    android:orientation="vertical" 
+    android:filterTouchesWhenObscured="true"
+    >
+    
+    <TextView 
+        android:id="@+id/tv_retweeted_content"
+        style="@style/TextViewBody"
+        android:padding="16dp"
+        android:textColor="@color/txt_gray"
+	    />
+    <include 
+        android:id="@+id/include_image_status"
+        layout="@layout/include_image_status"
+        android:visibility="gone"/>
+
+</LinearLayout>

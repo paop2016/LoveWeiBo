@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_comments"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white2gray_sel"
+    android:orientation="vertical" >
+    <include layout="@layout/include_avatar"/>
+	<TextView 
+	    android:id="@+id/tv_comment"
+	    style="@style/TextViewBody"
+	    android:layout_marginBottom="16dp"
+	    android:layout_marginLeft="64dp"
+	    android:layout_marginRight="16dp"
+	    android:layout_marginTop="-16dp"
+	    android:text="我评我评我评评评"
+	    />
+</LinearLayout>

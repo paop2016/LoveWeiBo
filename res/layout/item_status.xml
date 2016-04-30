@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_card_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white2gray_sel"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/include_avatar"/>
+	<TextView 
+	    android:id="@+id/tv_content"
+	    style="@style/TextViewBody"
+	    android:layout_width="wrap_content"
+	    android:padding="16dp"
+	    android:layout_marginTop="-24dp"
+	    android:text="我在马路边捡到一碗鸡汤"
+	    />
+	<include 
+	    android:id="@+id/include_image_status"
+	    layout="@layout/include_image_status"
+	    android:visibility="gone"/>
+	<include
+	    layout="@layout/include_retweeted_status"
+	    android:id="@+id/include_retweeted_status"
+	    android:visibility="gone"
+	    />
+	<include 
+	    layout="@layout/include_controlbar_status"
+	    android:id="@+id/ll_control_status"/>
+</LinearLayout>
